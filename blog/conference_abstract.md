@@ -1,4 +1,4 @@
-# Conference Abstract — FP-20
+# Conference Abstract — LLM Patch Correctness
 
 **Title:** LLM-Generated Security Patches Introduce New Vulnerabilities: A CWE-Stratified Regression Analysis
 

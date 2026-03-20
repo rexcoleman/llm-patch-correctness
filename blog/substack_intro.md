@@ -1,4 +1,4 @@
-# Substack Introduction — FP-20
+# Substack Introduction — LLM Patch Correctness
 
 **Subject line:** Your AI makes SQL injection worse. Here's the data.
 

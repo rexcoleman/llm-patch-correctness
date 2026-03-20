@@ -1,4 +1,4 @@
-# LinkedIn Post — FP-20
+# LinkedIn Post — LLM Patch Correctness
 
 We tested Claude Haiku generating security patches for 50 vulnerable code snippets across 5 CWE types.
 
