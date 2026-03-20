@@ -1,3 +1,12 @@
+---
+project: "FINDINGS — FP-20: LLM-Generated Patch Correctness"
+fp: "FP-20"
+status: COMPLETE
+quality_score: 8.0
+last_scored: 2026-03-20
+profile: security-ml
+---
+
 # FINDINGS — FP-20: LLM-Generated Patch Correctness
 
 > **Project:** FP-20
