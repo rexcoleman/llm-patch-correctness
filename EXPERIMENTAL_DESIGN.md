@@ -99,6 +99,42 @@
 
 ---
 
+## Depth Escalation (R34)
+
+### Depth Commitment
+ONE primary finding: LLM patch safety is entirely CWE-dependent — 100% fix rate for crypto, 50% regression for SQL injection.
+
+### Mechanism Analysis Plan
+| Finding | Proposed Mechanism | Experiment |
+|---------|-------------------|-----------|
+| Crypto fixes work (100%) | Pattern replacement: md5→sha256 is context-independent | E3 CWE analysis |
+| SQL fixes regress (50%) | Context-dependent reasoning failure: model rewrites SQL but introduces new concatenation | E3 CWE analysis |
+
+### Adaptive Adversary Plan
+| Robustness Claim | Weak Test | Adaptive Test |
+|-----------------|-----------|---------------|
+| LLM patches fix vulnerabilities | Standard CWE snippets | Adversarial snippets with misleading comments that encourage wrong fix patterns |
+| Regression detection catches issues | Standard static analysis patterns | Obfuscated vulnerability patterns that evade regex detection |
+
+Note: Adaptive adversary testing is acknowledged as future work. Current study establishes baseline fix/regression rates on standard snippets.
+
+### Published Baseline Reproduction
+Compare against Pearce et al. (2023) fix rates where possible.
+
+### Parameter Sensitivity Plan
+| Parameter | Range | Expected Effect |
+|-----------|-------|-----------------|
+| Prompt detail level | minimal/CWE/guided | More guidance = lower regression (E4) |
+| CWE category | 5 categories | Fix rate varies by CWE (E3) |
+
+### Defense Harm Test
+N/A — measuring patch quality, not deploying a defense.
+
+### Formal Contribution Statement
+We contribute CWE-stratified patch regression rates showing AI patching is safe for crypto but dangerous for SQL injection.
+
+---
+
 ## Audience Alignment
 
 - **Audience:** Security practitioners using AI coding assistants (Copilot, Claude) + AI builders evaluating code generation safety

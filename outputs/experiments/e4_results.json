@@ -1,0 +1,21 @@
+{
+  "experiment": "e4",
+  "date": "2026-03-20T04:26:30.195644",
+  "results": {
+    "minimal": {
+      "fix_rate": 0.35,
+      "regression_rate": 0.25,
+      "n": 100
+    },
+    "cwe_desc": {
+      "fix_rate": 0.4,
+      "regression_rate": 0.25,
+      "n": 100
+    },
+    "guided": {
+      "fix_rate": 0.25,
+      "regression_rate": 0.25,
+      "n": 100
+    }
+  }
+}
