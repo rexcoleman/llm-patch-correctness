@@ -3,7 +3,7 @@
 > **Gate:** 0 (must pass before Phase 1 compute)
 > **Date:** 2026-03-20
 > **Target venue:** USENIX Security 2026 [HYPOTHESIZED]
-> **lock_commit:** TBD
+> **lock_commit: `eb454e0`
 > **Profile:** contract-track
 > **Budget:** ~$3-5 Claude API (Haiku)
 
