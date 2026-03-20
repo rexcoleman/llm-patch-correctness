@@ -4,7 +4,7 @@
 
 ---
 
-We tested LLM-generated security patches across 5 vulnerability categories. The results are not what you'd expect.
+I tested LLM-generated security patches across 5 vulnerability categories.
 
 Crypto patches: 100% fix rate, 0% regression. Perfect.
 SQL injection patches: 0% fix rate, 50% REGRESSION. The AI introduces new injection vectors.

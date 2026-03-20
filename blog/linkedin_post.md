@@ -1,6 +1,6 @@
 # LinkedIn Post — LLM Patch Correctness
 
-We tested Claude Haiku generating security patches for 50 vulnerable code snippets across 5 CWE types.
+I tested Claude Haiku generating security patches for 50 vulnerable code snippets across 5 CWE types.
 
 Overall: 42% fix rate, 10% regression rate.
 
@@ -16,6 +16,10 @@ Practical takeaway for security teams using AI coding assistants:
 - Review AI patches for XSS and buffer overflow (50% fix rate)
 - Never trust AI for SQL injection or path traversal patches
 
-Full CWE-stratified analysis: [link]
+Which vulnerability types are you comfortable letting AI patch? Which aren't you?
 
 #AISecurity #CodeGeneration #VulnerabilityManagement #LLMSecurity #SQLInjection
+
+---
+
+> First comment: "Full CWE-stratified analysis: [blog URL]"

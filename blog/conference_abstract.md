@@ -7,9 +7,11 @@
 
 ## Abstract (250 words)
 
-We measure the regression rate of LLM-generated security patches — how often AI fixes introduce new vulnerabilities — using static analysis across 50 code snippets spanning 5 CWE categories. Claude Haiku achieves 42% fix rate overall with 10% regression, but these aggregates obscure dramatic CWE-dependent variation: cryptographic weakness patches (CWE-327) have 100% fix rate and 0% regression, while SQL injection patches (CWE-89) have 0% fix rate and 50% regression — the model makes SQL injection worse.
+Organizations are adopting LLM-generated code fixes for security vulnerabilities, but no empirical data exists on regression rates — how often the AI fix introduces a new vulnerability. Deploying an AI patch that makes SQL injection worse is not a theoretical risk; we measured it.
 
-The key finding: LLM patch safety is entirely CWE-dependent. Pattern-replacement fixes (md5→sha256) are reliable. Context-dependent fixes (parameterized queries, path validation) fail because the model cannot reason about data flow through the code.
+We evaluate Claude Haiku across 50 code snippets spanning 5 CWE categories using static analysis. Overall: 42% fix rate, 10% regression. But aggregates obscure dramatic CWE-dependent variation: cryptographic weakness patches (CWE-327) achieve 100% fix rate and 0% regression, while SQL injection patches (CWE-89) achieve 0% fix rate and 50% regression. The key finding: LLM patch safety is entirely CWE-dependent. Pattern-replacement fixes (md5 to sha256) are reliable; context-dependent fixes (parameterized queries, path validation) fail because the model cannot reason about data flow.
+
+Attendees will leave with a CWE-stratified safety map showing which vulnerability categories are safe for AI patching and which require human review, directly applicable to any team integrating LLM code generation into their remediation workflow.
 
 **Keywords:** LLM security, code generation, vulnerability patching, regression testing, CWE analysis
 
