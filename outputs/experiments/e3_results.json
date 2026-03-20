@@ -1,0 +1,31 @@
+{
+  "experiment": "e3",
+  "date": "2026-03-20T04:19:25.335976",
+  "results": {
+    "CWE-120": {
+      "fix_rate": 0.5,
+      "regression_rate": 0.0,
+      "n": 50
+    },
+    "CWE-22": {
+      "fix_rate": 0.1,
+      "regression_rate": 0.0,
+      "n": 50
+    },
+    "CWE-327": {
+      "fix_rate": 1.0,
+      "regression_rate": 0.0,
+      "n": 50
+    },
+    "CWE-79": {
+      "fix_rate": 0.5,
+      "regression_rate": 0.0,
+      "n": 50
+    },
+    "CWE-89": {
+      "fix_rate": 0.0,
+      "regression_rate": 0.5,
+      "n": 50
+    }
+  }
+}

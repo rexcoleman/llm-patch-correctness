@@ -60,7 +60,7 @@
 
 | ID | Statement (short) | Prediction | Status |
 |----|-------------------|-----------|--------|
-| H-1 | LLM fixes target vuln ≥70% | fix_rate ≥ 0.70 | PENDING |
-| H-2 | ≥15% introduce new vulns | regression_rate ≥ 0.15 | PENDING |
+| H-1 | LLM fixes target vuln ≥70% | fix_rate ≥ 0.70 | NOT SUPPORTED (42%) |
+| H-2 | ≥15% introduce new vulns | regression_rate ≥ 0.15 | NOT SUPPORTED (10%, but 50% CWE-89) |
 | H-3 | Regression varies by CWE | memory > injection | PENDING |
 | H-4 | Detailed prompts reduce regression | ≥10pp improvement | PENDING |

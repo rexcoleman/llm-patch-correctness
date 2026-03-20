@@ -1,0 +1,24 @@
+{
+  "experiment": "e0",
+  "date": "2026-03-20T04:10:49.652944",
+  "results": {
+    "results": [
+      {
+        "id": "sqli-01",
+        "has_code": true,
+        "code_length": 141
+      },
+      {
+        "id": "sqli-02",
+        "has_code": true,
+        "code_length": 140
+      },
+      {
+        "id": "sqli-03",
+        "has_code": true,
+        "code_length": 109
+      }
+    ],
+    "overall_pass": true
+  }
+}
