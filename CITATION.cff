@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this research, please cite it as below."
+type: software
+title: ": LLM-Generated Patch Correctness"
+authors:
+  - family-names: Coleman
+    given-names: Rex
+abstract: ": LLM-Generated Patch Correctness"
+date-released: "2026-03-20"
+url: "https://github.com/rexcoleman/llm-patch-correctness"
+repository-code: "https://github.com/rexcoleman/llm-patch-correctness"
+license: MIT
+keywords:
+  - "large-language-models"
+  - "reproducible-research"
+  - "security-ml"
